@@ -1,0 +1,45 @@
+img{
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+body, html{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    padding: 20px;
+}
+
+.imageHeader{
+    height: 200px;
+    margin: 0px;
+    background-size: cover;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#outer-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+
+#page-content{
+    align-self: center;
+}
