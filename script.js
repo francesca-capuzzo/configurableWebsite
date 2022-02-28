@@ -8,7 +8,6 @@ function setting() {
 }
 
 
-
 function pages() {
    fetch('./assets/settings/pages.json')
    .then(response => response.json())
@@ -38,15 +37,16 @@ function applySettings(data) {
     }
     
     if (data.theme === 'light') {
-        document.body.style.backgroundColor = 'white';
+        document.body.style.backgroundColor = 'rgba(255,240,237)';
     } else {
         document.body.style.backgroundColor = 'black';
+
     }
 }
 
 
 function createPages(data) {
-    // const content = data.content;
+
     const page = document.getElementById('page-content');
     for (const item of data[0].content) {
         console.log(data.content);
@@ -54,8 +54,9 @@ function createPages(data) {
         const text = document.createTextNode(item.text);
         tag.appendChild(text);
         page.appendChild(tag);
-
         tag.setAttribute('src', item.url);
-        
+    }
+    if (document.body.style.backgroundColor === 'black') {
+        page.style.color = 'pink';
     }
 }
