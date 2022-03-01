@@ -30,17 +30,23 @@ a{
     font-size: 30px;
 }
 
+#main-title{
+    margin-top: 200px;
+}
+
 .imageHeader{
-    height: 200px;
+    height: 400px;
     margin: 0px;
     background-size: cover;
     
 }
 
 header{
+    
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 
 }
 
@@ -64,7 +70,7 @@ header{
 #nav-container{
     position: fixed;
     left: 0px;
-    top: 200px;
+    top: 400px;
 }
 
 .image-shop{
@@ -98,6 +104,8 @@ button{
     line-height: 1.15;
     font-size: 16px;
 }
+
+
 button:hover {
         transition: all .1s ease;
         box-shadow: 0 0 0 0 #fff, 0 0 0 3px #88D7D1;
@@ -106,9 +114,10 @@ button:hover {
 
 
 .new-mode{
-    background-image: url("./assets/images/newback.jpg");
+    background-image: url("./assets/images/back.jpg");
     background-repeat: no-repeat;
     margin: 0px;
-    background-size: auto;
-    
+    background-size: cover;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
 }
