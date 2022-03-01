@@ -1,15 +1,19 @@
 
 @import url('http://fonts.cdnfonts.com/css/candy-shop-black-personal-use?styles=75616,75617,75618');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
 
 img{
-    width: 200px;
+    width: 400px;
     height: auto;
-    margin-bottom: 20px;
-    margin-top: 20px;
+   
+    margin-right: 40px;
 
 }
 
 body, html{
+    color: black;
+    background-color: rgba(255,240,237);
+    /* background-color: white; */
     text-align: center;
     margin: 0px;
     padding: 0px;
@@ -21,8 +25,9 @@ body, html{
 a{
     padding: 20px;
     text-decoration: none;
-    color: #378680;
+    color: #88D7D1;
     display: block;
+    font-size: 30px;
 }
 
 .imageHeader{
@@ -52,6 +57,58 @@ header{
 
 #page-content{
     align-self: center;
-    color: black;
+    /* color: black; */
     font-size: 30px;
+}
+
+#nav-container{
+    position: fixed;
+    left: 0px;
+    top: 200px;
+}
+
+.image-shop{
+    width: 1080px;
+    margin-left: 40px;
+}
+
+p{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 24px;
+}
+
+.dark-mode{
+    color: pink;
+    background-color: black;
+}
+
+
+button{
+    margin-left: 20px;
+    margin-bottom: 40px;
+    display: block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #000021;
+    background: #88D7D1;
+    line-height: 1.15;
+    font-size: 16px;
+}
+button:hover {
+        transition: all .1s ease;
+        box-shadow: 0 0 0 0 #fff, 0 0 0 3px #88D7D1;
+        color: white;
+}
+
+
+.new-mode{
+    background-image: url("./assets/images/newback.jpg");
+    background-repeat: no-repeat;
+    margin: 0px;
+    background-size: auto;
+    
 }

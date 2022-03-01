@@ -1,10 +1,11 @@
 [
     {
         "id": "p1",
+        "name": "Home",
         "content": [
             {
                 "tag": "h2",
-                "text": "Pasticcera Celiaca"
+                "text": "Pasticcera celiaca"
             },
             {
                 "tag": "p",
@@ -13,6 +14,154 @@
             {
                 "tag": "img",
                 "url": "./assets/images/giorgia.jpg"
+            }
+        ]
+    },
+    {
+        "id": "p2",
+        "name": "Blog",
+        "content": [
+            {
+                "tag": "h2",
+                "text": "Il nostro Blog"
+            },
+            {
+                "tag": "p",
+                "text": "Un mestiere particolare per Giorgia, che è celiaca e che per questo non può assaggiare gran parte dei suoi prodotti, ma la passione che la muove è tanta. A farla distinguere c’è la sua grande inventiva. Anche nel marketing, ad esempio, d’estate in sella alla sua bicicletta consegna cornetti caldi ad atriani e turisti. Da sempre anticipatrice dei tempi. Giorgia è stata tra le prime in Italia a lavorare la pasta di zucchero quando ancora non era così diffusa. Una creatività travolgente che l’ha portata alla creazione, tra le altre cose, delle Spezialità. Si tratta di una personalissima linea di biscotti alle spezie in fase di distribuzione a livello nazionale."
+            },
+            {
+                "tag": "h2",
+                "text": "Viva i dolci!"
+            },
+            {
+                "tag": "p",
+                "text": "Un mestiere particolare per Giorgia, che è celiaca e che per questo non può assaggiare gran parte dei suoi prodotti, ma la passione che la muove è tanta. A farla distinguere c’è la sua grande inventiva. Anche nel marketing, ad esempio, d’estate in sella alla sua bicicletta consegna cornetti caldi ad atriani e turisti. Da sempre anticipatrice dei tempi. Giorgia è stata tra le prime in Italia a lavorare la pasta di zucchero quando ancora non era così diffusa. Una creatività travolgente che l’ha portata alla creazione, tra le altre cose, delle Spezialità. Si tratta di una personalissima linea di biscotti alle spezie in fase di distribuzione a livello nazionale."
+            }
+        ]
+    },
+    {
+        "id": "p3",
+        "name": "Shop",
+        "content": [
+            {
+                "tag": "h2",
+                "text": "Shop"
+            },
+            {
+                "tag": "p",
+                "text": "Vieni a trovarci nella nostra bottega accogliente piena di profumi e colori, chicchi, virtù e peccati di gola. Dove il cliente (ri)scopre gli antichi sapori della tradizione oltreché nuove frontiere del gusto."
+            },
+            {
+                "tag": "img",
+                "url": "./assets/images/shop.jpg",
+                "class": "image-shop"
+            }
+        ]
+    },
+    {
+        "id": "p4",
+        "name": "Gallery",
+        "content": [
+            {
+                "tag": "div",
+                "children":[
+                    {
+                        "tag": "h2",
+                        "class": "page-title",
+                        "text": "Le nostre creazioni"
+                    },
+                    {
+                        "tag": "p",
+                        "text": "L’attenzione alla naturalezza delle materie prime e delle successive lavorazioni è il suo valore aggiunto. Circa sette anni fa ha prodotto i primi Cantucci alla Liquirizia, spezia tipica di Atri. Cantuccio senza grassi, senza agenti lievitanti e conservanti. Un prodotto che è stato a Expo di Milano, a New York in degustazione al Westchester Italian Cultural Center e anche in Giappone. Poi sono arrivate le Pepite di Zenzero e Pinoli, quelle di choco-cannella, entrambe vegane e il cantuccio con le mandorle, uvetta e gocce di cioccolato, aromatizzato al rum."
+                    }
+                ]
+            },
+            {
+                "tag": "div",
+                "children":[
+                    {
+                        "tag": "h2",
+                        "text": "Gallery"
+                    },
+                    {
+                        "tag": "div",
+                        "children": [
+                            {
+                                "tag": "img",
+                                "url": "./assets/images/pista.jpg"
+                            },
+                            {
+                                "tag": "p",
+                                "text": "Crema chantilly, crema pistacchio di bronte e scie di cioccolata bianca."
+                            },
+                          
+            
+                            {
+                                "tag": "img",
+                                "url": "./assets/images/cake.jpg"
+                            },
+                            {
+                                "tag": "p",
+                                "text": "Cioccolato purissimo dell’Ecuador, Rum e mandorle."
+                            },
+                          
+                            {
+                                "tag": "img",
+                                "url": "./assets/images/cake2.jpg"
+                            },
+                            {
+                                "tag": "p",
+                                "text": "Un fiore al gusto fragola e cioccolato."
+                            },
+                          
+                            {
+                                "tag": "img",
+                                "url": "./assets/images/farfalle.jpg"
+                            },
+                            {
+                                "tag": "p",
+                                "text": "La nostra torta di farfalle e panna."
+                            },
+                          
+                            {
+                                "tag": "img",
+                                "url": "./assets/images/Name.jpg"
+                            },
+                            {
+                                "tag": "p",
+                                "text": "Cioccolato purissimo dell’Ecuador, lamponi pistacchio di Bronte con base di frolla alle mandorle."
+                            },
+                          
+                            {
+                                "tag": "img",
+                                "url": "./assets/images/pink.jpg"
+                            },
+                            {
+                                "tag": "p",
+                                "text": "Crema chantilly, crema pistacchio di bronte e scie di cioccolata bianca."
+                            },
+                          
+                            {
+                                "tag": "img",
+                                "url": "./assets/images/zeppole.png"
+                            },
+                            {
+                                "tag": "p",
+                                "text": "Le famose “zeppole di San Giuseppe”, rivisitate con impasto alla liquirizia, ripiene di soffice crema pasticcera e decorate con crema al limone."
+                            },
+                            {
+                                "tag": "img",
+                                "url": "./assets/images/rose.jpg"
+                            },
+                            {
+                                "tag": "p",
+                                "text": "In onore della festa della mamma, Pasticceria Giorgia propone la sua bavarese alla fragola dal cuore morbido."
+                            }
+                          
+                         
+                        ]
+                    }
+                ]
             }
         ]
     }
