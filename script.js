@@ -60,3 +60,5 @@ function createPages(data) {
         page.style.color = 'pink';
     }
 }
+
+
