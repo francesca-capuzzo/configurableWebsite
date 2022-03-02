@@ -20,11 +20,12 @@ function settingStyle() {
 }
 
 function pages() {
-   fetch('./assets/settings/pages.json')
+   fetch('./assets/settings/pagesMarkdownContent.json')
    .then(response => response.json())
    .then(configurePages)
    .catch(error => console.log(error));
 }
+
 
 
 function applySettings(data) {
@@ -65,6 +66,7 @@ function configurePages(pageSetting) {
 }
 
 
+
 function setNavMenu(pageSetting) {
     const navMenu = document.getElementById('nav-menu');
     for (const page of pageSetting) {
@@ -82,22 +84,9 @@ function setNavMenu(pageSetting) {
 
 
 function createPages(data) {
-
-    const page = document.getElementById('page-content');
-    // for (const item of data[0].content) {
-    //     console.log(data.content);
-    //     const tag = document.createElement(item.tag);
-    //     const text = document.createTextNode(item.text);
-    //     tag.appendChild(text);
-    //     page.appendChild(tag);
-    //     tag.setAttribute('src', item.url);
-    // }
-    for (const element of data.content) {
-        const htmlElement = createHTMLelements(element);
-        htmlElement.className += element.class;
-        htmlElement.style += element.style;
-        page.appendChild(htmlElement);
-    }  
+    fetch(data.contentUrl)
+    .then(response => response.text())
+    .then(result => document.getElementById('page-content').innerHTML = marked.parse(result));
 }
 
 

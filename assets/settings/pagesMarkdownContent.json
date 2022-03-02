@@ -1,0 +1,16 @@
+[
+    {
+    "id": "p1",
+    "name": "Home",
+    "contentUrl": "./assets/pages/page1.md"
+
+},
+
+{
+
+    "id": "p2",
+    "name": "Home",
+    "contentUrl": "./assets/pages/page2.md"
+
+}
+]
